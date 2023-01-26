@@ -1,4 +1,4 @@
-// primeira versão proposta 
+// primeira versão proposta. Implementaçâo se sintaxe ternária com quebra de linha 
 for (let i = 1; i <= 3; i++) {
   i !== 3
     ? console.log(`Adicionando ${i} bola(s) de sorvete`)

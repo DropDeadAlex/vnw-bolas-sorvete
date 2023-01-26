@@ -26,4 +26,6 @@ porque está utilizando uma função para determinar se deve ser usado "bola" ou
 e outra função para determinar se deve ser exibida a mensagem "Adicionando" ou "Foram 
 adicionadas". A segunda versão utiliza o método forEach para percorrer o array de 
 índices, e a terceira versão é ainda mais curta, pois utiliza operadores ternários e 
-spread operator para criar o array de índices. */
+spread operator para criar o array de índices. */ 
+
+// comentários do bloco acima, por: ChaptGPT

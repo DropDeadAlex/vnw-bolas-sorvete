@@ -13,11 +13,12 @@ for (const i of [1, 2, 3])
 
 console.log(""); // spacers
 console.log(""); // spacers
+console.log("[...Array(3).keys()]"); // spacers
 
 
-// forEarch em array de índices
-[...Array(3).keys()].forEach(i =>
-  console.log(`${adicionando(i + 1)} ${i + 1} ${bolas(i + 1)} de sorvete`)
+// map() e forEarch() em array de índices
+[...Array(3).keys()].map(i => i + 1).forEach(i =>
+  console.log(`${adicionando(i)} ${i} ${bolas(i)} de sorvete`)
 )
 
 
